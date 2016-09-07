@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die;
 if ($hassiteconfig) {
     global $CFG;
     global $DB;
+
     $settings = new admin_settingpage('local_samieconfig', new lang_string('pluginname', 'local_samieconfig'));
     $ADMIN->add('localplugins', $settings);
 
